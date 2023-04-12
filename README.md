@@ -3,7 +3,12 @@
 Приложение без UI, пользуемся терминалом))
 
 
-node weather.js - старт приложения;
-node weather.js -t [TOKEN] - сохранить ваш токен;
-node weather.js -s [CITY] - сохранить ваш город;
-node weather.js -h - HELP;
+<ul>
+<li>node weather.js - старт приложения;</li>
+<li>node weather.js -t [TOKEN] - сохранить ваш токен;</li>
+<li>node weather.js -s [CITY] - сохранить ваш город;</li>
+<li>node weather.js -h - HELP;</li>
+<ul/>
+
+
+
