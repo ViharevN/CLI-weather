@@ -1,8 +1,8 @@
 #!/usr/bin/env node
-import {getArgs} from "./helpers/args.js";
-import {printError, printHelp, printSuccess, printWeather} from "./services/log.service.js";
-import {getKeyValue, saveKeyValue, TOKEN_DICTIONARY} from "./services/storage.service.js";
-import {getIcon, getWeather} from "./services/api.service.js";
+import {getArgs} from "../helpers/args.js";
+import {printError, printHelp, printSuccess, printWeather} from "../services/log.service.js";
+import {getKeyValue, saveKeyValue, TOKEN_DICTIONARY} from "../services/storage.service.js";
+import {getIcon, getWeather} from "../services/api.service.js";
 
 
 const saveToken = async (token) => {
